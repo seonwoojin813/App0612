@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         //화면 출력을 위해서 뷰를 설정하는 메소드
         setContentView(R.layout.activity_main);
         //로그 캣 출력
-        Log.e(tag:"change", msg:"코드작성");
+        Log.e("change", "코드작성");
     }
+
 }
