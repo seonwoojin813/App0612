@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         //로그 캣 출력
         Log.e("change", "코드작성");
-        Log.t("github", "직접 코드입력");
+        Log.d("github", "직접 코드입력");
     }
 
 }
